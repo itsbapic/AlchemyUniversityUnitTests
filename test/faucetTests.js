@@ -13,10 +13,7 @@ describe('Faucet', function () {
     const [owner, signer2] = await ethers.getSigners();
 
     let withdrawAmount = ethers.utils.parseUnits("1", "ether");
-    // let contractBalance = ;
 
-    // console.log('Signer 1 address: ', owner.address);
-    // console.log('Signer 2 address: ', signer2.address);
     return { faucet, owner, signer2, withdrawAmount };
   }
 
